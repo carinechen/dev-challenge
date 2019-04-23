@@ -1,7 +1,6 @@
 //Importando npms
 const fs = require('fs'); 
 const csv = require('fast-csv');
-const csvjson = require('csvjson');
 
 //Lê o arquivo csv
 const stream = fs.createReadStream('input.csv');
